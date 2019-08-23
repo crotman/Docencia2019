@@ -1,0 +1,98 @@
+---
+title: "Docência: Plano de Aula - Técnicas de Programação I"
+author: "Bruno Crotman"
+date: "21/08/2019"
+output: 
+    pdf_document:
+        number_sections: true
+
+---
+
+\section{Conteúdo}
+
+
+Análise de algoritmos, pesquisa sequencial e pesquisa binária
+
+
+\section{Objetivos}
+
+O objetivo da aula é que todos os alunos aprendam e saibam usar na prática os seguintes conceitos:
+
+\begin{itemize}
+
+\item Complexidade de algoritmo. O aluno deve saber identificar quantos passos são necessários para executar um dado algoritmo
+
+\item Notação Big O. O aluno deve aprender o que significa a notação Big O, o que significa dizer que um algoritmo tem complexidade $O(n)$, $O(n^2)$ ou $O(c^n)$. Ele deve perceber que deve ser dada maior importância ao efeito assintótico da complexidade, ou seja, os casos onde $n$ é grande.
+
+\item O aluno deve entender bem a diferença entre uma complexidade polinomial e uma não-polinomial. Ele deve entender a implicação disso na prática. Deve sair da aula convencido de que um algoritmo de complexidade não-polinomial é intratável com $n$ muito grande.
+
+
+\end{itemize}
+
+
+\section{Roteiro}
+
+O roteiro foi pensado de forma a mesclar partes expositivas com atividades práticas. As atividades práticas são feitas junto com o professor e em grupos de alunos. As atividades práticas visam a dotar o aluno da visão prática a respeito dos objetivos da aulas.
+
+
+\subsection{Complexidade de Algoritmos e Notação Big O}
+
+
+Esta exposição teórica feita pelo professor oferece os fundamentos necessários para o resto do conteúdo.
+
+Duração: 20 minutos
+
+
+\subsection{Pesquisa Sequencial}
+
+Esta exposição teórica feita pelo professor inclui um assunto simples no conteúdo da matéria. Este algoritmo simples vai ser usado como exemplo na atividade prática posterior.
+
+Duração: 10 minutos
+
+
+\subsection{Definição da complexidade do algoritmo de Pesquisa Sequencial}
+
+Exercício praticado em conjunto: professor e alunos. A ideia é mostrar através deste exemplo como se calcula a complexidade de um algoritmo.
+
+Duração: 10 minutos
+
+
+\subsection{Pesquisa binária}
+
+Esta exposição teórica feita pelo professor expande o conceito de pesquisa, usando um método um pouco mais complexo de forma a dar subsício para a análise da complexidade de um algoritmo um pouco mais complicado.
+
+Duração: 10 minutos
+
+
+
+\subsection{Definição da complexidade do algoritmo de Pesquisa Binária}
+
+Exercício praticado pelos alunos em grupos. O aluno deve chegar ao insight de usar log no cálculo da complexidade.
+
+
+Duração: 15 minutos
+
+
+
+\subsection{Conceito de algoritmo polinomial e não-polinomial}
+
+Esta exposição teórica feita pelo professor mostra as duas classes de algoritmos, mostrando exemplos de cada uma delas. A exposição serve de base para o exercício seguinte.
+
+Duração 20 minutos
+
+
+\subsection{Simular e mostrar graficamente a compleidade de algoritmos com diferentes complexidades}
+
+
+Os alunos devem fazer esse exercício em grupo, simulando e mostrando graficamente o número de execuções de algoritmos com as seguintes complexidades: $O(n)$, $O(n^2)$ e $O(2^n)$, para $n = {1, 10, 1.000, 1.000.000}$. A ideia é que o aluno reconheça na prática e fixe a ideia de que algoritmos não-polinomiais são intratáveis quando n cresce um pouco.
+
+Duração: 25 minutos
+
+
+\subsection{Conclusões}
+
+Exposição do professor concluindo a aula, revendo o conteúdo estudado e destacando os objetivos principais.
+
+
+Duração: 10 minutos
+
